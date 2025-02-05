@@ -23,12 +23,13 @@ ul {
 }
 
 .header {
-  background-image: url(/sitePermK/src/img/Group\ 4.png);
-  height: 100vh;
-  background-size: cover;
-}
+  background-image: url(/img/Group\ 4.png);
+  height: 100vh; 
+  background-size: contain;
+  background-repeat: no-repeat;
 
-.img__logo {
+}
+  .img__logo {
   width: 60px;
   height: 100px;
 }
@@ -46,6 +47,7 @@ ul {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  background-size: contain
 }
 
 body {
@@ -71,6 +73,10 @@ body {
   font-size: 20px;
   line-height: 107%;
   font-family: "Roboto", sans-serif;
+}
+
+.menu__item:hover {
+  background-color: #108308;
 }
 
 .header__title {
@@ -129,7 +135,8 @@ body {
 
 .footer__social {
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
+    gap: 50px;
     padding-top: 73px;
 }
 
