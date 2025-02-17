@@ -37,7 +37,7 @@ ul {
 
 .img__logo {
   width: 60px;
-  height: auto; /* Убедитесь, что высота пропорциональна */
+  height: auto; 
 }
 
 .header__inner {
@@ -77,11 +77,16 @@ body {
   background-color: rgba(var(--main-color), 0.5);
   border: 1px solid var(--text-color);
   border-radius: 30px;
-  padding: 5px 20px;
+  padding:  5px 20px;
+}
+
+.menu__item::content {
+  color: red;
 }
 
 .menu__item:hover {
   background-color: #108308;
+  transition: 0.4s;
 }
 
 .header__title {
@@ -134,7 +139,7 @@ body {
   font-size: 30px;
   padding-top: 86px;
   text-align: center;
-  font-weight: 400; /* Убираем 'px' */
+  font-weight: 400; 
 }
 
 .footer__social {
