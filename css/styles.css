@@ -80,10 +80,6 @@ body {
   padding:  5px 20px;
 }
 
-.menu__item::content {
-  color: red;
-}
-
 .menu__item:hover {
   background-color: #108308;
   transition: 0.4s;
